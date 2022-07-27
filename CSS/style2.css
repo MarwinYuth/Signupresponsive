@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.convert-title{
+    font-size: 17px;
+    font-weight:bold;
+    background-color: tomato;
+    padding: 7px;
+    border-radius: 10px;
+    color:white;
+}
+.title-size{
+    font-size: 38px;
+}
+.w{
+    width: 550px;
+    height: 308px;
+}
+.ipt input{
+    width: 250px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 19px;
+}
+.ipt button{
+    background-color: #16a34a;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#error{
+    color: red;
+    font-size: 19px;
+}
+.padding-night{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    .w{
+        width: 350px;
+        height: 250px;
+    }
+
+    .title-size{
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    nav ul li{
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+    }
+}
